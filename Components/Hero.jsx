@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
-import { FiMail } from "react-icons/fi";
+
 import { IoBagSharp } from "react-icons/io5";
 const Hero = () => {
 
@@ -9,23 +9,8 @@ const Hero = () => {
 
   return (
 
-    <Container className='hero'>
+    <section className='hero'>
 
-      <div>
-
-        <Navbar>
-          <div className='email'>
-            <FiMail viewBox="0 -1 24 24"/> <h1>    Alejscript@gmail.com</h1>
-          </div>
-          <div className="title">
-
-            <h1>Developer guy</h1>
-          </div>
-          <div className='cv'>
-            Cv
-          </div>
-        </Navbar>
-      </div>
 
       <HeroBox className="hero-box">
 
@@ -60,10 +45,10 @@ const Hero = () => {
           </svg>
 
 
-      <Button >
+      {/* <Button >
 
-        <span class="button-50" role="button">Portafolio <IoBagSharp viewBox="0 50 512 512"/> </span>  
-      </Button>
+        <span class="button-50" role="button">Portafolio </span>  
+      </Button> */}
         </div>
 
         <ContainerPhoto className="hero-box_photo">
@@ -106,64 +91,11 @@ const Hero = () => {
 
       </HeroBox>
 
-    </Container>
+    </section>
   )
 }
 
-const Container = styled.section`
 
-margin: 0 auto;
-max-width: 1440px;
-padding: 2rem;
-margin-top: 2rem;
-background-color: #EEEAE9;
-/* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset, rgb(38, 57, 77) 0px 20px 30px -10px;; */
-border-radius: 1rem;
-box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; 
-`;
-
-const Navbar = styled.div`
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* width: 100%; */
-
-  .email{
-    margin-left: 1rem;
-    display: flex;
-    h1{
-
-      
-      margin-left: 1rem;
-      text-align: center;
-    }
-    svg{
-      
-      width: 100%;
-height: 100%;
-      font-size:2rem ;
-    }
-
-  }
-  .title{
-    h1{
-      font-family: 'Fira Sans', sans-serif;
-      font-weight: 500;
-    font-size: 2.3rem;
-    }
-
-  }
-  .cv{
-    text-align: right;
-    width:280.828px;
-    font-weight: 500;
-    font-size: 2rem;
-    margin-right: 1rem;
-  }
-  
-
-`
 
 const HeroBox = styled.div`
 
@@ -177,7 +109,7 @@ const HeroBox = styled.div`
 //box 
   .hero-box_text{
     width: 50%;
-    height: 70%;
+    height: 86%;
     margin-left: 2rem;
     /* position: relative; */
     
@@ -270,7 +202,7 @@ padding: 19px 22px;
   }
   span{
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 900;
     position: relative;
     font-size: 1.3rem;
     line-height: 18px;
@@ -300,7 +232,7 @@ padding: 19px 22px;
 
     &:before{
 
-      width: 110%;
+      width: 100%;
       background: rgba(#ffb422,1);
       svg{
         transform: translateX(0)}
