@@ -49,7 +49,7 @@ const Gallery = () => {
       <div className='card'>
           {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-          <img src="/image/after.jpg" alt="" />
+          <img src="image/after.jpg" alt="" />
           <p>Web</p>
           {/* <Gradient/> */}
 
@@ -62,7 +62,7 @@ const Gallery = () => {
       <div className='card'>
           {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-          <img src="/image/frontend.jpg"  alt="" />
+          <img src="image/frontend.jpg"  alt="" />
           <p>Webs</p>
           {/* <Gradient/> */}
 
@@ -75,7 +75,7 @@ const Gallery = () => {
       <div className='card'>
           {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-          <img src="/image/frontend2.jpg" alt="" />
+          <img src="image/frontend2.jpg" alt="" />
           <p>Web</p>
           {/* <Gradient/> */}
 
