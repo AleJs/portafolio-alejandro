@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
-
+import { Link } from 'react-router-dom';
 import { IoBagSharp } from "react-icons/io5";
 const Hero = () => {
 
@@ -21,40 +21,39 @@ const Hero = () => {
             Ramirez
           </h1>
           <p>
-            Personal Porfolio /Currículum /CV WordPress Tema es para muchos propósitos.n diseño creativo, minimalista y limpio. Tiene todas las características del sitio web empresarial.
-            Es adecuado para cualquier empresa de nueva creación, empresas , agencias y autónomos que necesiten una forma profesional de mostrar sus proyectos y servicios con una experiencia 100% súper receptiva.
+            I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
           </p>
           <div className="imagenes">
 
-              <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="" />     
-              <img src="(https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="" />     
-              <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="" />     
-              <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="" />     
-              <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="" />     
-              <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="" />     
-              <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="" />     
-              <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="" />     
-              <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="" />     
-              <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="" />     
-              <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="" />     
-              <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="" />     
-              <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="" />     
+            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="" />
+            <img src="(https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="" />
+            <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="" />
+            <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="" />
+            <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="" />
+            <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="" />
+            <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="" />
+            <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="" />
+            <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="" />
+            <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="" />
+            <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="" />
+            <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="" />
+            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="" />
           </div>
           <svg width="16" height="530" viewBox="0 0 16 530" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="16" height="530" fill="#32574E" />
           </svg>
 
 
-      {/* <Button >
+          <Button to={"/portafolio-v2/portafolio"}>
 
-        <span class="button-50" role="button">Portafolio </span>  
-      </Button> */}
+            <span class="button-50" role="button">Portafolio </span>
+          </Button>
         </div>
 
         <ContainerPhoto className="hero-box_photo">
 
           <div className='foto'>
-            <img src="../public/fondo.svg" alt="" />
+            <img src="../public/assets/fondo.svg" alt="" />
           </div>
 
 
@@ -181,10 +180,13 @@ const ContainerPhoto = styled.div`
   }
 `
 
-const Button = styled.a`
+const Button = styled(Link)`
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 position: absolute;
 left: 46%;
+    top: 77%;
 padding: 19px 22px;
   transition: all .2s ease;
   &:before{

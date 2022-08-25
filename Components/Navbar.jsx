@@ -42,7 +42,7 @@ const Bar = styled.div`
     display: flex;
     h1{
 
-      
+      margin-bottom: 0.5rem;
       margin-left: 1rem;
       text-align: center;
     }
