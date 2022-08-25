@@ -39,7 +39,7 @@ const Hero = () => {
             <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="" />
             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="" />
           </div>
-          <svg width="16" height="530" viewBox="0 0 16 530" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="16" height="450" viewBox="0 0 16 530" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="16" height="530" fill="#32574E" />
           </svg>
 
@@ -115,7 +115,7 @@ const HeroBox = styled.div`
     svg{
       z-index: 0;
       position: absolute;
-      top: 18%;
+      top: 21%;
       left: 50%;
     }
    

@@ -15,13 +15,25 @@ const Gallery = () => {
       <div className="menu">
           <div className="menul">
 
-            <ul className="li">Ui/Ux</ul>
+            {/* <ul className="li">
+
+              <li>Ui/Ux</li>
+              <li>Web</li>
+              <li>Web Aplicattion</li>
+              <li>Ecomoerces</li>
+            </ul> */}
             <ul className="li">Webs</ul>
             <ul className="li">Web Aplicattion</ul>
-            <ul className="li">E-Commers</ul>
-        <Icon to={"/portafolio-v2/"}>
+            <ul className="li">Ui/Ux</ul> 
+            <ul className="li">E-Commers</ul> 
+        <Icon >
+   
        
-        <FiArrowLeftCircle/>
+       <Links to={"/portafolio-v2/"}> 
+        
+       <FiArrowLeftCircle/>
+        </Links> 
+      
        
         </Icon> 
           </div>
@@ -32,7 +44,7 @@ const Gallery = () => {
             options={{
               
               autoHeight:true,
-                perPage:3,
+                perPage:2,
                 arrow:false,
                 pagination:false,
                 drag:"free",
@@ -138,11 +150,16 @@ width: 100%;
 
     
     ul{
-      color: white;
-      font-family: 'Fira Sans', sans-serif;
-      font-size: 1.5rem;
+  
       margin-bottom: 1rem;
+     
       cursor: pointer;
+color: white;
+font-family: 'Fira Sans', sans-serif;
+font-size: 1.5rem;
+      li{
+        list-style: none;
+      }
      
     }
 }
@@ -151,17 +168,20 @@ width: 100%;
     
     `
 const ContentCard = styled.div`
-   grid-column: 2/6;
-    grid-row: 2/4;
+       grid-column: 2/6;
+    grid-row: 1/4;
     grid-auto-flow: row;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
     .splide{
       padding: 0;
     }
   .card  {
    width: 100%;
-   max-width: 300px;
+   max-width: 400px;
    min-width: 200px;
-   height: 250px;
+   height: 90%;
    background-color: #292929;
    margin: 10px;
    border-radius: 2rem;
@@ -187,12 +207,21 @@ const ContentCard = styled.div`
         color: white;
       }
     `
-const Icon = styled(Link)`
-
+const Icon = styled.div`
+Link{
+  text-decoration: none;
+  color: white;
+}
 text-align: center;
 color: white;
 font-size: 3.2rem;
 
+
 `
+const Links = styled(Link)`
+  text-decoration: none;
+  color: white;
+`
+
 
 export default Gallery
