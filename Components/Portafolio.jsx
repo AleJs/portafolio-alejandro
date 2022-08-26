@@ -2,7 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import photoLoop from '../public/images/loop.JPG'
+import loopImage from '../src/loop.jpg';
+import after from '../src/after.jpg';
+import portafolio from '../src/portafolio.jpg';
 
 const Portafolio = () => {
   return (
@@ -28,7 +30,7 @@ const Portafolio = () => {
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-                <a href="https://alejs.github.io/recipe-example/"><img src="images/after.jpg" alt="" /></a>
+                <a href="https://alejs.github.io/recipe-example/"><img src={after} alt="" /></a>
                 {/* <Gradient/> */}
 
                 {/* </Link> */}
@@ -42,7 +44,7 @@ const Portafolio = () => {
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-               <a href="https://alejs.github.io/landing-page-frontmentor/"><img src={photoLoop} alt="" /> </a> 
+               <a href="https://alejs.github.io/landing-page-frontmentor/"><img src={loopImage} alt="" /> </a> 
                 {/* <h4>LoopStudio</h4> */}
                 {/* <Gradient/> */}
 
@@ -55,7 +57,7 @@ const Portafolio = () => {
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-              <a href="https://portafolio-hbnqggfpo-alejs.vercel.app/"> <img src="images/frontend2.jpg" alt="" /> </a>
+              <a href="https://portafolio-hbnqggfpo-alejs.vercel.app/"> <img src={portafolio} alt="" /> </a>
             
                 {/* <h4>Portafolio Example</h4> */}
                 {/* <Gradient/> */}
