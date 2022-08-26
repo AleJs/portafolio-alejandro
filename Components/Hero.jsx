@@ -53,7 +53,7 @@ const Hero = () => {
         <ContainerPhoto className="hero-box_photo">
 
           <div className='foto'>
-            <img src="image/fondo.svg" alt="" />
+            <img src="images/fondo.svg" alt="" />
           </div>
 
 

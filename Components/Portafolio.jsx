@@ -26,7 +26,7 @@ const Portafolio = () => {
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-                <a href="https://alejs.github.io/recipe-example/"><img src="image/after.jpg" alt="" /></a>
+                <a href="https://alejs.github.io/recipe-example/"><img src="images/after.jpg" alt="" /></a>
                 {/* <Gradient/> */}
 
                 {/* </Link> */}
@@ -40,7 +40,7 @@ const Portafolio = () => {
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-               <a href="https://alejs.github.io/landing-page-frontmentor/"><img src="image/loop.JPG"  alt="" /> </a> 
+               <a href="https://alejs.github.io/landing-page-frontmentor/"><img src="images/loop.jpg"  alt="" /> </a> 
                 {/* <h4>LoopStudio</h4> */}
                 {/* <Gradient/> */}
 
@@ -53,7 +53,7 @@ const Portafolio = () => {
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-              <a href="https://portafolio-hbnqggfpo-alejs.vercel.app/"> <img src="image/frontend2.JPG" alt="" /> </a>
+              <a href="https://portafolio-hbnqggfpo-alejs.vercel.app/"> <img src="images/frontend2.jpg" alt="" /> </a>
             
                 {/* <h4>Portafolio Example</h4> */}
                 {/* <Gradient/> */}
