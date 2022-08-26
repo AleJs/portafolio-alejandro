@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import photoLoop from '../public/images/loop.JPG'
+
 const Portafolio = () => {
   return (
             <ContentCard>
@@ -39,8 +41,8 @@ const Portafolio = () => {
             <SplideSlide >
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
-<img src="images/loop.JPG" alt="" />
-               <a href="https://alejs.github.io/landing-page-frontmentor/"><img src="images/loop.JPG" alt="" /> </a> 
+
+               <a href="https://alejs.github.io/landing-page-frontmentor/"><img src={photoLoop} alt="" /> </a> 
                 {/* <h4>LoopStudio</h4> */}
                 {/* <Gradient/> */}
 
