@@ -330,7 +330,7 @@ grid-area: 1/ 1/ 4;
  * Version  : 4.0.7
  * License  : MIT
  * Copyright: 2022 Naotoshi Fujita
- */const bm=()=>j(P3,{children:Te(k3,{options:{height:"450px",autoHeight:!0,perPage:2,arrow:!1,pagination:!1,drag:"free",padding:"2rem",gap:"0.5rem",width:"100%",autoplay:!1,pauseOnFocus:!0},children:[j(Cu,{children:j("div",{className:"card",children:j("a",{href:"https://alejs.github.io/recipe-example/",children:j("img",{src:"image/after.JPG",alt:""})})})}),j(Cu,{children:j("div",{className:"card",children:Te("a",{href:"https://alejs.github.io/landing-page-frontmentor/",children:[j("img",{src:"image/frontend.JPG",alt:""})," "]})})}),j(Cu,{children:j("div",{className:"card",children:Te("a",{href:"https://portafolio-hbnqggfpo-alejs.vercel.app/",children:[" ",j("img",{src:"image/frontend2.JPG",alt:""})," "]})})})]})}),P3=Wt.div`
+ */const bm=()=>j(P3,{children:Te(k3,{options:{height:"450px",autoHeight:!0,perPage:2,arrow:!1,pagination:!1,drag:"free",padding:"2rem",gap:"0.5rem",width:"100%",autoplay:!1,pauseOnFocus:!0},children:[j(Cu,{children:j("div",{className:"card",children:j("a",{href:"https://alejs.github.io/recipe-example/",children:j("img",{src:"image/after.jpg",alt:""})})})}),j(Cu,{children:j("div",{className:"card",children:Te("a",{href:"https://alejs.github.io/landing-page-frontmentor/",children:[j("img",{src:"image/frontend.JPG",alt:""})," "]})})}),j(Cu,{children:j("div",{className:"card",children:Te("a",{href:"https://portafolio-hbnqggfpo-alejs.vercel.app/",children:[" ",j("img",{src:"image/frontend2.JPG",alt:""})," "]})})})]})}),P3=Wt.div`
        grid-column: 2/6;
     grid-row: 1/4;
     grid-auto-flow: row;
