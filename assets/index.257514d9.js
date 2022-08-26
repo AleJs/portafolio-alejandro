@@ -330,7 +330,7 @@ grid-area: 1/ 1/ 4;
  * Version  : 4.0.7
  * License  : MIT
  * Copyright: 2022 Naotoshi Fujita
- */const P3="/portafolio-alejandro/assets/loop.32ad5d88.jpg",bm=()=>j(T3,{children:Te(k3,{options:{height:"450px",autoHeight:!0,perPage:2,arrow:!1,pagination:!1,drag:"free",padding:"2rem",gap:"0.5rem",width:"100%",autoplay:!1,pauseOnFocus:!0},children:[j(Cu,{children:j("div",{className:"card",children:j("a",{href:"https://alejs.github.io/recipe-example/",children:j("img",{src:"images/after.jpg",alt:""})})})}),j(Cu,{children:j("div",{className:"card",children:Te("a",{href:"https://alejs.github.io/landing-page-frontmentor/",children:[j("img",{src:P3,alt:""})," "]})})}),j(Cu,{children:j("div",{className:"card",children:Te("a",{href:"https://portafolio-hbnqggfpo-alejs.vercel.app/",children:[" ",j("img",{src:"images/frontend2.jpg",alt:""})," "]})})})]})}),T3=Wt.div`
+ */const P3="/portafolio-alejandro/assets/loop.32ad5d88.jpg",T3="/portafolio-alejandro/assets/after.9d6a5cbd.jpg",_3="/portafolio-alejandro/assets/portafolio.27b5c163.jpg",bm=()=>j(A3,{children:Te(k3,{options:{height:"450px",autoHeight:!0,perPage:2,arrow:!1,pagination:!1,drag:"free",padding:"2rem",gap:"0.5rem",width:"100%",autoplay:!1,pauseOnFocus:!0},children:[j(Cu,{children:j("div",{className:"card",children:j("a",{href:"https://alejs.github.io/recipe-example/",children:j("img",{src:T3,alt:""})})})}),j(Cu,{children:j("div",{className:"card",children:Te("a",{href:"https://alejs.github.io/landing-page-frontmentor/",children:[j("img",{src:P3,alt:""})," "]})})}),j(Cu,{children:j("div",{className:"card",children:Te("a",{href:"https://portafolio-hbnqggfpo-alejs.vercel.app/",children:[" ",j("img",{src:_3,alt:""})," "]})})})]})}),A3=Wt.div`
        grid-column: 2/6;
     grid-row: 1/4;
     grid-auto-flow: row;
@@ -395,7 +395,7 @@ grid-area: 1/ 1/ 4;
       font-size: 2rem;
       margin-bottom: 1rem;
     }
-    `,_3=()=>Te(wS,{children:[j(Sr,{path:"/portafolio-alejandro/",element:j(km,{})}),Te(Sr,{path:"/portafolio-alejandro/works/",element:j(m5,{}),children:[j(Sr,{path:"web",element:j(bm,{})}),j(Sr,{exact:!0,path:"*",element:j(bm,{})})]}),j(Sr,{exact:!0,path:"*",element:j(km,{})})]});function A3(){return Te(R3,{className:"App",children:[j(a5,{}),j(_3,{})]})}const R3=Wt.section`
+    `,R3=()=>Te(wS,{children:[j(Sr,{path:"/portafolio-alejandro/",element:j(km,{})}),Te(Sr,{path:"/portafolio-alejandro/works/",element:j(m5,{}),children:[j(Sr,{path:"web",element:j(bm,{})}),j(Sr,{exact:!0,path:"*",element:j(bm,{})})]}),j(Sr,{exact:!0,path:"*",element:j(km,{})})]});function L3(){return Te(O3,{className:"App",children:[j(a5,{}),j(R3,{})]})}const O3=Wt.section`
 
 margin: 0 auto;
 height: 793px;
@@ -406,4 +406,4 @@ background-color: #EEEAE9;
 /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset, rgb(38, 57, 77) 0px 20px 30px -10px;; */
 border-radius: 1rem;
 box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; 
-`;function L3(){return j(CS,{children:j(A3,{})})}Eu.createRoot(document.getElementById("root")).render(j(Ye.StrictMode,{children:j(L3,{})}));
+`;function N3(){return j(CS,{children:j(L3,{})})}Eu.createRoot(document.getElementById("root")).render(j(Ye.StrictMode,{children:j(N3,{})}));
