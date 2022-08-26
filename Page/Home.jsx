@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import './App.css'
-import Hero from '../Components/Hero'
+
 import Gallery from '../Components/Gallery'
 import Navbar from './../Components/Navbar';
 

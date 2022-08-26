@@ -44,7 +44,7 @@ const Hero = () => {
           </svg>
 
 
-          <Button to={"/portafolio-v2/portafolio"}>
+          <Button to={"/portafolio-alejandro/works/web"}>
 
             <span class="button-50" role="button">Portafolio </span>
           </Button>

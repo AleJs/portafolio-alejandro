@@ -1,12 +1,19 @@
 import React from 'react'
 import {Route, Routes} from "react-router-dom"
 import Hero from './../Components/Hero';
-import Gallery from '../Components/Gallery';
+import GalleryNav from './GalleryNav';
+import Portafolio from '../Components/Portafolio';
 const Pages = () => {
   return (
     <Routes>
-        <Route exact path= "/portafolio-v2/" element={<Hero/>}/>
-        <Route  path= "/portafolio-v2/portafolio" element={<Gallery/>}/>
+        <Route exact path= "/portafolio-alejandro/" element={<Hero/>}/>
+        <Route  path= "/portafolio-alejandro/works/" element={<GalleryNav/>}>
+          <Route  path= "web" element={<Portafolio/>}/>
+        <Route exact path= "*" element={<Portafolio/>}/>
+
+        </Route>
+        <Route exact path= "*" element={<Hero/>}/>
+        
     </Routes>
   )
 }
