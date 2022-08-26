@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 const Portafolio = () => {
   return (
@@ -39,7 +40,7 @@ const Portafolio = () => {
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-               <a href="https://alejs.github.io/landing-page-frontmentor/"><img src="image/frontend.JPG"  alt="" /> </a> 
+               <a href="https://alejs.github.io/landing-page-frontmentor/"><img src="image/loop.JPG"  alt="" /> </a> 
                 {/* <h4>LoopStudio</h4> */}
                 {/* <Gradient/> */}
 
