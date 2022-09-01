@@ -27,7 +27,7 @@ const Menunav = () => {
                     <Icon >
 
 
-                        <Links to={"/luisalejandro/"}>
+                        <Links to={"/portafolio-alejandro/"}>
 
                             <FiArrowLeftCircle />
                         </Links>

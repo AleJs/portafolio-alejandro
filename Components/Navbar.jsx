@@ -8,13 +8,13 @@ const Navbar = () => {
     
     <Bar>
     <div className='email'>
-      <FiMail viewBox="0 -1 24 24"/> <h1>    Alejscript@gmail.com</h1>
+     <span> <FiMail viewBox="0 -1 24 24"/> Alejscript@gmail.com</span>
     </div>
     
-    <div className="title">
+    {/* <div className="title">
 
       <h1>Developer guy</h1>
-    </div>
+    </div> */}
    
     <motion.div
             whileHover={{
@@ -35,22 +35,27 @@ const Bar = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 1rem 0rem 1rem;
   /* width: 100%; */
 
   .email{
-    margin-left: 1rem;
+    
     display: flex;
-    h1{
+    align-items: center;
+    justify-content: center;
+    span{
 
       margin-bottom: 0.5rem;
-      margin-left: 1rem;
+      font-size: 1.5rem;
+    font-weight: 700;
       text-align: center;
-    }
-    svg{
-      
-      width: 100%;
-height: 100%;
-      font-size:2rem ;
+      svg{
+        
+        
+    height: 1.3rem;
+
+   
+      }
     }
 
   }
@@ -64,16 +69,20 @@ height: 100%;
   }
   .cv{
     text-align: right;
-    width:280.828px;
+    width:15%;
+    max-width: 206px;
     font-weight: 500;
     font-size: 2rem;
-    margin-right: 1rem;
+  
     a{
         color: black;
         text-decoration: none;
     }
   }
-  
+  @media (max-width: 425px){
+    
+  display: none
+}
 
 `
 

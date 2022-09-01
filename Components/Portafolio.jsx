@@ -11,7 +11,7 @@ const Portafolio = () => {
             <ContentCard>
             <Splide 
                   options={{
-                    height:"450px",
+                    height: "500px",
                     autoHeight:true,
                       perPage:2,
                       arrow:false,
@@ -22,6 +22,7 @@ const Portafolio = () => {
                       width: "100%",
                       autoplay: false,
                       pauseOnFocus:true,
+                      // direction: 'ttb',
                     }}
               >
 
@@ -86,27 +87,7 @@ const ContentCard = styled.div`
       padding: 0;
     }
   .card  {
-   /* 
-   max-width: 400px;
-   min-width: 200px;
-   height: 90%;
-   background-color: #292929;
-   margin: 10px;
-   border-radius: 2rem;
-  
-   border: 2px solid rgba(7, 7, 7, 0.12);
-   font-size: 16px;   
-   transition: all 0.3s ease;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   cursor: pointer;
-   transition: all 0.3s ease; */
-   /* width: 450px;
-   height: 430px; */
-   /* position: relative; */
-   background-color: #292929;
+    background-color: #292929;
     height: 100%;
    width: 100%;
    max-height: 374px;
