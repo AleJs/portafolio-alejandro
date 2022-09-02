@@ -11,7 +11,7 @@ const Portafolio = () => {
             <ContentCard>
             <Splide 
                   options={{
-                    height: "500px",
+                    height: "400px",
                     autoHeight:true,
                       perPage:2,
                       arrow:false,
@@ -109,7 +109,7 @@ const ContentCard = styled.div`
        width: 100%;
       height: 100%; 
       border-radius: 2rem; 
-      max-width: 500px;
+      max-width: 700px;
       max-height: 500px;
     }
 

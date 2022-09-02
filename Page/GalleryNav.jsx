@@ -17,7 +17,7 @@ const GalleryNav = () => {
 const Content = styled.section`
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 90%;`
 
