@@ -344,13 +344,39 @@ const HeroBox = styled.div`
       display: none;
     }
   }
+  }
+  @media  (max-width: 663px){
+    .hero-box_text{
+      .text{
+        .luis{
+          font-size: 3rem;
+        }
+        p{
+           letter-spacing: 2px;
+        }
+      }
+      .imagenes{
+        width: 106%;
 
+      }
+    }
+  }
   
-
-  
+  @media (max-width: 375px){
+    .hero-box_text {
+    margin-left: 0 ;
+     width: 100%;
+    .text {
+     
+      .luis{
+        text-align: center;
+        font-size:2.2rem }
+        margin-bottom: 0.5rem;
+      }
+    }
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
    
       .active{
   display: none;
@@ -381,23 +407,23 @@ const HeroBox = styled.div`
  }
 
   }
-  @media (max-width: 475px){
-    .hero-box_text {
-    margin-left: 0 ;
-     width: 100%;
-    .text {
-     
-      .luis{
-        text-align: center;
-        font-size:2.2rem }
-        margin-bottom: 0.5rem;
-      }
-    }
-  }
+
+
   @media (max-width: 375px){
     width: 101%;
-   
-    
+    .active{
+  display: none;
+}
+.active2{
+  display: block;
+}
+.hero-box_text{
+  .text{
+    .luis{
+      font-size: 2.2rem;
+    }
+  }
+}
   }
   
 
@@ -479,9 +505,9 @@ const ContainerPhoto = styled.div`
       }
       }
     }
-    @media (max-width: 425px){
+    @media (max-width: 600px){
       .iconsvgSociall {
-  
+        margin-top: 1rem;
       .svg{
         height: 2.5rem;
       }
@@ -555,7 +581,10 @@ const Button = styled(Link)`
   @media (max-width: 768px) {
     left: 68%;
   }
-  @media (max-width: 425px) {
+  @media  (max-width: 663px){
+    left: 63%;
+  }
+  @media (max-width: 600px) {
     top: 88%;
     left: 25%;
     span{

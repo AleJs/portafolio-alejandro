@@ -79,7 +79,7 @@ const Bar = styled.div`
         text-decoration: none;
     }
   }
-  @media (max-width: 425px){
+  @media (max-width: 600px){
     
   display: none
 }
