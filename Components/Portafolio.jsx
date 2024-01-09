@@ -31,7 +31,7 @@ const Portafolio = () => {
             <div className='card'>
                 {/* <Link to={"/recipe-example/" + recipes.id}> */}
 
-                <a href="https://alejs.github.io/recipe-example/"><img src={after} alt="" /></a>
+                <a href="https://alejs.github.io/recipe-example/"><img src={after} alt="ejemplo" /></a>
                 {/* <Gradient/> */}
 
                 {/* </Link> */}
